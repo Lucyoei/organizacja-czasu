@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    color: #333;
+}
+
+/* Nagłówek */
+
+header {
+    background-color: #6b7a67;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Główna część strony */
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #52634e;
+    margin-top: 0;
+}
+
+/* Wstęp */
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+}
+
+/* Karty */
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #eef0e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #52634e;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+/* Plan dnia */
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    background-color: #f4f1ea;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.time strong {
+    width: 80px;
+    color: #52634e;
+}
+
+.time span {
+    color: #444;
+}
+
+/* Zasady */
+
+.tips li {
+    margin-bottom: 12px;
+}
+
+/* Sekcja ze znakiem UTF-8 */
+
+.special {
+    text-align: center;
+}
+
+.utf {
+    font-size: 45px;
+    margin: 20px 0 0;
+}
+
+/* Stopka */
+
+footer {
+    text-align: center;
+    background-color: #6b7a67;
+    color: white;
+    padding: 20px;
+}
+
+/* Wygląd na telefonie */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .time strong {
+        width: 65px;
+    }
+}
